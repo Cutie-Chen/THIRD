@@ -1,0 +1,28 @@
+ALTER TABLE employees ADD CONSTRAINT employees_PK PRIMARY KEY(employee_id);
+ALTER TABLE orders ADD CONSTRAINT orders_PK PRIMARY KEY(order_id);
+ALTER TABLE order_items ADD CONSTRAINT pk_order_items PRIMARY KEY(order_id,item_id);
+ALTER TABLE customers ADD CONSTRAINT customers_PK PRIMARY KEY(customer_id);
+ALTER TABLE products ADD CONSTRAINT products_PK PRIMARY KEY(product_id);
+ALTER TABLE contacts ADD CONSTRAINT contacts_PK PRIMARY KEY(contact_id);
+ALTER TABLE product_categories ADD CONSTRAINT product_categories_PK PRIMARY KEY(category_id);
+ALTER TABLE inventories ADD CONSTRAINT pk_inventories PRIMARY KEY(product_id,warehouse_id);
+ALTER TABLE warehouses ADD CONSTRAINT warehouses_PK PRIMARY KEY(warehouse_id);
+ALTER TABLE locations ADD CONSTRAINT locations_PK PRIMARY KEY(location_id);
+ALTER TABLE countries ADD CONSTRAINT countries_PK PRIMARY KEY(country_id);
+ALTER TABLE regions ADD CONSTRAINT regions_PK PRIMARY KEY(region_id);
+
+ALTER TABLE employees ADD CONSTRAINT fk_employees_manager FOREIGN KEY(manager_id) REFERENCES employees(employee_id);
+ALTER TABLE orders ADD CONSTRAINT fk_orders_employees FOREIGN KEY(salesman_id) REFERENCES employees(employee_id);
+ALTER TABLE orders ADD CONSTRAINT fk_orders_customers FOREIGN KEY(customer_id) REFERENCES customers(customer_id);
+ALTER TABLE order_items ADD CONSTRAINT fk_orders_items_orders FOREIGN KEY(order_id) REFERENCES orders(order_id);
+ALTER TABLE order_items ADD CONSTRAINT fk_orders_item_products FOREIGN KEY(product_id) REFERENCES products(product_id);
+ALTER TABLE products ADD CONSTRAINT fk_products_categories FOREIGN KEY(category_id) REFERENCES product_categories(category_id);
+ALTER TABLE contacts ADD CONSTRAINT fk_contacts_customers FOREIGN KEY(customer_id) REFERENCES customers(customer_id);
+ALTER TABLE inventories ADD CONSTRAINT fk_inventories_products FOREIGN KEY(product_id) REFERENCES products(product_id);
+ALTER TABLE inventories ADD CONSTRAINT fk_inventories_warehouses FOREIGN KEY(warehouse_id) REFERENCES warehouses(warehouse_id);
+ALTER TABLE warehouses ADD CONSTRAINT fk_warehouses_locations FOREIGN KEY(location_id) REFERENCES locations(location_id);
+ALTER TABLE countries ADD CONSTRAINT fk_locaions_countries FOREIGN KEY(country_id) REFERENCES countries(country_id);
+
+
+
+

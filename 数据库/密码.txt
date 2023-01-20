@@ -1,0 +1,4 @@
+私有：192.168.0.8
+公网：120.46.203.175
+opengauss：Cz06270116
+chenxinlei：Bigdata123

@@ -1,0 +1,19 @@
+[root@ecs-7cda ~]# su - omm 
+[omm@ecs-7cda ~]$ gs_om -t status
+[omm@ecs-7cda ~]$ gs_om -t start
+[omm@ecs-7cda ~]$ gsql -d postgres -p 26000 -r 
+postgres=# CREATE USER chenxinlei WITH PASSWORD "Bigdata123";
+postgres=# grant all privileges to chenxinlei;
+CREATE DATABASE Sales OWNER chenxinlei;
+gsql -d sales -p 26000 -U chenxinlei -r
+sales=>CREATE SCHEMA myschema
+sales=> CREATE TABLE employees(
+sales(> employee_id NUMBER,
+sales(> first_name VARCHAR2(255),
+sales(> last_name VARCHAR2(255),
+sales(> email VARCHAR2(255),
+sales(> phone VARCHAR2(50),
+sales(> hire_data DATE,
+sales(> manager_id NUMBER,
+sales(> joe_title VARCHAR2(255)
+sales(> );

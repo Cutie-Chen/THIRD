@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>实验3:可交互的饼图</title>
+    <script src="./static/js/d3.min.js"></script>
+</head>
+
+<body>
+    <svg width="1600" height="800" id="mainsvg" class="svgs" style='display: block; margin: 0 auto;'></svg>
+    <script>
+        const svg = d3.select('svg');
+        const width = svg.attr('width');
+        const height = svg.attr('height');
+
+        d3.csv('./static/data/liaoning_population.csv').then(data => {
+            /* 1. 补充饼图生成器(pie)和弧形生成器(path)的定义(30pt),
+            其中pie绑定的数据是辽宁省各城市的人口,path对应的内圆半径是60,外圆半径是260;
+            const pie = d3.pie()...
+            const path = d3.arc()...
+            */
+            const pie=d3.pie().value(function(d){return d.population;});
+            const path=d3.arc()
+            .innerRadius(60)
+            .outerRadius(260);
+
+            const arcData = pie(data);
+            const color = d3.scaleOrdinal()
+            .domain(data.map(d => d.city))
+            .range(d3.schemeSet2.concat(d3.schemeSet3));
+            
+            svg.selectAll('path').data(arcData).join('path')
+            .attr('d', path)
+            .attr('transform', `translate(${width / 2}, ${height / 2})`)
+            .attr('fill', d => color(d.data.city))
+
+            const arcOuter = d3.arc().innerRadius(280).outerRadius(280);
+            svg.append('g').attr('transform', `translate(${width / 2}, ${height / 2})`)
+            .selectAll('text').data(arcData).enter()
+            /* 2. 为饼图添加城市名称(30pt),
+            只需要接着.selectAll('text').data(arcData).join('text')继续编程即可;
+            ...
+            */
+            .append('text')
+            .attr('text-anchor','middle')
+            .attr('transform',function(d)
+            {
+                var x=arcOuter.centroid(d)[0];
+                var y=arcOuter.centroid(d)[1];
+                return "translate("+x+","+y+")";
+            })
+            .text(function(d){return d.data.city;})
+
+            /* 3. 实现”实验3_演示.mp4“中饼图的交互效果(30pt);
+            */
+            .on('mouseover',function(d)
+            {
+                d3.select(this)
+                .text(function(d)
+                {
+                    return d.data.population;
+                }
+                );
+            })
+            .on('mouseout',function(d)
+            {
+                d3.select(this)
+                .text(function(d)
+                {
+                    return d.data.city;
+                });
+            });
+
+        });
+    </script>
+</body>
+</html>

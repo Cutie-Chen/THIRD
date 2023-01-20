@@ -1,0 +1,64 @@
+CREATE TABLE employees(
+employee_id   NUMBER,
+first_name VARCHAR2(255),
+last_name VARCHAR2(255),
+email VARCHAR2(255),
+phone VARCHAR2(20),
+hire_date DATE,
+manager_id   NUMBER,
+job_title VARCHAR2(255)
+);
+
+CREATE TABLE orders(
+order_id   NUMBER,
+customer_id   NUMBER,
+status varchar2(20),
+salesman_id   NUMBER,
+order_date date);
+
+create table order_items(
+order_id   NUMBER,
+item_id   NUMBER(12),
+product_id   NUMBER,
+quantity   NUMBER(8,2),
+unit_price   NUMBER(8,2));
+
+create table customers(
+customer_id   NUMBER,
+name varchar2(255),
+address varchar2(255),
+website varchar2(255),
+credit_limit   NUMBER(8,2));
+
+create table products(
+product_id  number(255),
+product_name varchar2(255),
+description varchar2(2000),
+standard_cost  numeric(9,2),
+list_price   numeric(9,2),
+category_id   numeric);
+
+create table contacts(
+contact_id   NUMBER,first_name varchar2(255),last_name varchar2(255),
+email varchar2(255),phone varchar2(20),customer_id   NUMBER);
+
+create table product_categories(
+category_id   NUMBER,category_name varchar2(255));
+
+create table inventories(
+product_id   NUMBER,warehouse_id   NUMBER,quantity   NUMBER(8));
+
+create table warehouses(
+warehouse_id   NUMBER,warehouse_name varchar2(255),location_id   NUMBER);
+
+create table locations(
+location_id   NUMBER,address varchar2(255),postal_code varchar2(20),
+city varchar2(50),state varchar2(50),country_id char(2));
+
+create table countries(
+country_id char(2),
+country_name varchar2(40),region_id   NUMBER);
+
+create table regions(
+region_id  NUMBER,
+region_name varchar2(50));

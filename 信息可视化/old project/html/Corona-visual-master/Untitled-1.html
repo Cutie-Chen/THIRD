@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>全国新型冠状病毒疫情实时动态 - Hightopo</title>
+    <style type="text/css">
+    　body {
+        padding:
+            env(safe-area-inset-top, 20px)
+            env(safe-area-inset-right, 20px)
+            env(safe-area-inset-bottom, 20px)
+            env(safe-area-inset-left, 20px);
+        }
+　　</style>
+</head>
+
+<script>
+    if (window.location.protocol == "https:") {
+        window.location.href = 'http://www.hightopo.cn/demo/coronavirus/';
+    }
+</script>
+<body>
+    <!-- <script src="../lib/core/ht.js"></script>
+    <script src="../lib/core/ht-ui.js"></script>
+	<script src="../lib/plugin/ht-obj.js"></script>
+	<script src="../lib/plugin/ht-vector.js"></script>
+    <script src="../lib/plugin/ht-animation.js"></script> -->
+
+    <script src="../../guide/lib/core/ht-gis.js"></script>
+    <script src="../../guide/lib/core/ht-ui.js"></script>
+    <script src="../../guide/lib/plugin/ht-obj.js"></script>
+    <script src="../../guide/lib/plugin/ht-vector.js"></script>
+    <script src="../../guide/lib/plugin/ht-animation.js"></script>
+
+    <!-- <script src="lib/axios.min.js"></script>
+    <script src = "lib/polyfill.min.js"> </script>  -->
+    <!-- 解决IE11 axios “Promise”未定义问题-->
+    <script src="js/index.js"></script>
+</body>
+</html>

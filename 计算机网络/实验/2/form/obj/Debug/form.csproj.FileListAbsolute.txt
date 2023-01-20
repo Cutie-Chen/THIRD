@@ -1,0 +1,10 @@
+E:\大三上\计算机网络\实验\2\form\bin\Debug\form.exe.config
+E:\大三上\计算机网络\实验\2\form\bin\Debug\form.exe
+E:\大三上\计算机网络\实验\2\form\bin\Debug\form.pdb
+E:\大三上\计算机网络\实验\2\form\obj\Debug\form.csproj.AssemblyReference.cache
+E:\大三上\计算机网络\实验\2\form\obj\Debug\form.Form1.resources
+E:\大三上\计算机网络\实验\2\form\obj\Debug\form.Properties.Resources.resources
+E:\大三上\计算机网络\实验\2\form\obj\Debug\form.csproj.GenerateResource.cache
+E:\大三上\计算机网络\实验\2\form\obj\Debug\form.csproj.CoreCompileInputs.cache
+E:\大三上\计算机网络\实验\2\form\obj\Debug\form.exe
+E:\大三上\计算机网络\实验\2\form\obj\Debug\form.pdb

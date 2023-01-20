@@ -1,0 +1,124 @@
+Base path: D:/unity hub/2017.2.1f1/Editor/Data
+Cmd: initializeCompiler
+Cmd: preprocess
+  insize=2953 outsize=3473 ok=1
+Cmd: preprocess
+  insize=948 outsize=234 ok=1
+Cmd: preprocess
+  insize=2338 outsize=1801 ok=1
+Cmd: preprocess
+  insize=2011 outsize=1726 ok=1
+Cmd: preprocess
+  insize=484 outsize=1321 ok=1
+Cmd: preprocess
+  insize=2154 outsize=1456 ok=1
+Cmd: preprocess
+  insize=2021 outsize=689 ok=1
+Cmd: preprocess
+  insize=4582 outsize=736 ok=1
+Cmd: preprocess
+  insize=2915 outsize=1519 ok=1
+Cmd: preprocess
+  insize=2138 outsize=1162 ok=1
+Cmd: preprocess
+  insize=1531 outsize=1299 ok=1
+Cmd: preprocess
+  insize=2912 outsize=714 ok=1
+Cmd: preprocess
+  insize=782 outsize=1289 ok=1
+Cmd: preprocess
+  insize=862 outsize=514 ok=1
+Cmd: preprocess
+  insize=12823 outsize=6297 ok=1
+Cmd: preprocess
+  insize=750 outsize=1455 ok=1
+Cmd: preprocess
+  insize=2439 outsize=358 ok=1
+Cmd: preprocess
+  insize=770 outsize=1137 ok=1
+Cmd: preprocess
+  insize=1083 outsize=192 ok=1
+Cmd: preprocess
+  insize=990 outsize=408 ok=1
+Cmd: preprocess
+  insize=2379 outsize=1842 ok=1
+Cmd: preprocess
+  insize=3005 outsize=3129 ok=1
+Cmd: preprocess
+  insize=2709 outsize=3232 ok=1
+Cmd: preprocess
+  insize=4549 outsize=754 ok=1
+Cmd: preprocess
+  insize=19171 outsize=3146 ok=1
+Cmd: preprocess
+  insize=2320 outsize=682 ok=1
+Cmd: preprocess
+  insize=1090 outsize=198 ok=1
+Cmd: preprocess
+  insize=1504 outsize=689 ok=1
+Cmd: preprocess
+  insize=980 outsize=1192 ok=1
+Cmd: preprocess
+  insize=932 outsize=197 ok=1
+Cmd: preprocess
+  insize=2761 outsize=2887 ok=1
+Cmd: preprocess
+  insize=2757 outsize=2149 ok=1
+Cmd: preprocess
+  insize=2202 outsize=1414 ok=1
+Cmd: preprocess
+  insize=811 outsize=347 ok=1
+Cmd: preprocess
+  insize=559 outsize=220 ok=1
+Cmd: preprocess
+  insize=2717 outsize=2109 ok=1
+Cmd: preprocess
+  insize=6821 outsize=3963 ok=1
+Cmd: preprocess
+  insize=964 outsize=195 ok=1
+Cmd: preprocess
+  insize=1083 outsize=192 ok=1
+Cmd: preprocess
+  insize=3023 outsize=1617 ok=1
+Cmd: preprocess
+  insize=4645 outsize=827 ok=1
+Cmd: preprocess
+  insize=1530 outsize=715 ok=1
+Cmd: preprocess
+  insize=2408 outsize=773 ok=1
+Cmd: preprocess
+  insize=28216 outsize=8324 ok=1
+Cmd: preprocess
+  insize=8511 outsize=1363 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (98): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Vertex program with DIRECTIONAL
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME
+  api=4 type=0 insize=3918 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME ok=0
+Cmd: preprocess
+  insize=1174 outsize=463 ok=1
+Cmd: preprocess
+  insize=486 outsize=1295 ok=1
+Cmd: preprocess
+  insize=5525 outsize=3968 ok=1
+Cmd: preprocess
+  insize=576 outsize=1022 ok=1
+Cmd: preprocess
+  insize=1634 outsize=591 ok=1
+Cmd: preprocess
+  insize=31129 outsize=8526 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (98): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Vertex program with DIRECTIONAL
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME
+  api=4 type=0 insize=3918 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (98): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Fragment program with DIRECTIONAL
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME
+  api=4 type=1 insize=3918 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (152): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Vertex program with DIRECTIONAL
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME
+  api=4 type=0 insize=3957 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (152): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Fragment program with DIRECTIONAL
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME
+  api=4 type=1 insize=3957 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME ok=0
