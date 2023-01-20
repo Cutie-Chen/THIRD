@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0 !important;
+}
+html{
+    min-width: 1440px;
+    min-height: 700px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    overflow: auto;
+}
+.data_bodey{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bg01.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+}
+.index_tabs{
+    width: 100%;
+    height: 88%;
+    
+    position: absolute;
+}
